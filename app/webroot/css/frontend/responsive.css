@@ -1,0 +1,49 @@
+/*
+Media Query for Tablet
+ ===============================*/
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+.landing-container .logo{ margin-top: 100px; } 
+.landing-container .inner-box{ max-width: 80%; }
+
+.our-service li{ width: 33.33%; padding: 15px 15px; }
+.our-service li a span{ font-size: 14px; }
+
+#footer .container{ margin: 0 auto; max-width: 80% }
+#footer .secondry-footer li{ margin: 0 25px; }
+
+}
+
+
+/*
+Media Query for mobile
+ ===============================*/
+@media only screen and (max-width : 767px){
+
+.landing-container .inner-box{ max-width: 90%; }
+.landing-container .logo{ margin-top: 25px; }
+.landing-container .logo img{ max-width: 60px; } 
+.landing-container .punch-line{ font-size: 18px; }
+
+.landing-container .inner-box p{ margin-top: 30px; font-size: 18px; line-height: 22px; }
+.landing-container .select-box{ width: 100%; max-width: 280px; margin: 50px auto 100px; }
+.landing-container select{ font-size: 14px; line-height: 20px; padding: 0 15px; }
+.landing-container select option{ font-size: 14px; line-height: 20px; }
+
+.banner-container .inner-box{ max-width: 90%; }
+.banner-container .logo{ margin-top: 25px; }
+.banner-container .logo img{ max-width: 60px; } 
+.banner-container .punch-line{ font-size: 18px; }
+.banner-container h2{ font-size: 20px; line-height: 1.2; }
+
+.our-service li{ width: 50%; padding: 15px 15px; }
+.our-service li a span{ font-size: 14px; }
+
+#footer .primary-footer h2{ padding: 15px 0 10px; }
+#footer .primary-footer h2 a{ font-size: 12px; }
+#footer .secondry-footer{ padding: 15px 0; }
+#footer .secondry-footer li{ margin: 0 10px; }
+#footer .secondry-footer li a{ font-size: 10px; }
+
+}
+
